@@ -44,3 +44,9 @@ input[type=number] {
     color: #222222;
     font-family: 'Kavivanar', sans-serif;
 }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
