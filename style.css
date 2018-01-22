@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Kavivanar|Playfair+Display');
 * {
     padding: 0;
     margin: 0;
@@ -26,16 +27,20 @@ input[type=number] {
     text-align: center;
     border: 0;
     outline: none;
+    font-family: 'Playfair Display', serif;
 }
 
 ::-webkit-input-placeholder {
     color: #222222;
+    font-family: 'Kavivanar', sans-serif;
 }
 
 ::-moz-placeholder {
     color: #222222;
+    font-family: 'Kavivanar', sans-serif;
 }
 
 :-ms-input-placeholder {
     color: #222222;
+    font-family: 'Kavivanar', sans-serif;
 }
